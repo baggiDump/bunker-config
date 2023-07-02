@@ -1,5 +1,5 @@
 player:
-    join: <gold>|<green> %player% <white>присоединился к игре! <gray>(%online%/4)
+    join: <gold>|<gold> %player% <white>присоединился к игре! <gray>(%online%/4)
     active-game: game active
 game:
     new-day: new day %day% %dayLocalized%
