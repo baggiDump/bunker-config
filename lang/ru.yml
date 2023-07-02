@@ -1,0 +1,10 @@
+player:
+    join: <gold>|<green> %player% <white>присоединился к игре! <gray>(%online%/4)
+    active-game: game active
+game:
+    new-day: new day %day% %dayLocalized%
+    engine-break: <color:#FB5300>⚠ <color:#EFFBD1>Генератор неисправен! Скорее почините
+      его...
+    engine-repaired: <color:#FB5300>⚠ <color:#EFFBD1>Генератор снова исправен!
+    bunker-door-opened: <color:#FB5300>⚠ <color:#EFFBD1>Дверь в бункер открыта!
+    bunker-door-closed: <color:#FB5300>⚠ <color:#EFFBD1>Дверь в бункер закрыта!
