@@ -1,10 +1,13 @@
 player:
     join: <gold>|<gold> %player% <white>присоединился к игре! <gray>(%online%/4)
-    active-game: game active
+    active-game: <color:#67FB00>⚠ <color:#EFFBD1> Нельзя подключиться к активной игре.
+    close-filled-chest: <color:#FB8F00>⚠ <color:#EFFBD1> Ты закрыл заполненный сундук и это было шумно. Возможно ты привлек лишнее внимание, будь осторожен...
 game:
-    new-day: new day %day% %dayLocalized%
+    new-day: <color:#67FB00>⚠ <color:#EFFBD1> Поздравляю! Вы прожили %day% %dayLocalized%
     engine-break: <color:#FB5300>⚠ <color:#EFFBD1>Генератор неисправен! Скорее почините
       его...
-    engine-repaired: <color:#FB5300>⚠ <color:#EFFBD1>Генератор снова исправен!
-    bunker-door-opened: <color:#FB5300>⚠ <color:#EFFBD1>Дверь в бункер открыта!
-    bunker-door-closed: <color:#FB5300>⚠ <color:#EFFBD1>Дверь в бункер закрыта!
+    engine-repaired: <color:#67FB00>⚠ <color:#EFFBD1>Генератор снова исправен!
+    bunker-door-opened: <color:#FB8F00>⚠ <color:#EFFBD1>Дверь в бункер открыта!
+    bunker-door-closed: <color:#67FB00>⚠ <color:#EFFBD1>Дверь в бункер закрыта!
+    day: <color:#FB8F00>⚠ <color:#EFFBD1> Наступил день!
+    night: <color:#FB8F00>⚠ <color:#EFFBD1> Наступила ночь!
